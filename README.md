@@ -1,5 +1,5 @@
-#System Architecture Overview
-##High-Level Diagram
+# System Architecture Overview
+## High-Level Diagram
 
 
 [Frontend (Next.js)]
@@ -17,24 +17,26 @@ v
 [Authentication (Clerk)]
 
 
-#Component Descriptions
+# Component Descriptions
 
 
-##Frontend (Next.js):
+## Frontend (Next.js):
 Provides a responsive and interactive user interface for browsing products, managing orders, and
 handling user authentication.
 Fetches and displays data from the backend APIs in real-time.
-Sanity CMS:
-Third-Party APIs:
-Authentication (Clerk):
-Key Workflows
--User Registration
+
+
+- Sanity CMS:
+- Third-Party APIs:
+ -Authentication (Clerk):
+# Key Workflows
+- User Registration
 Process:
--Product Browsing
+- Product Browsing
 Process:
--Order Placement
+- Order Placement
 Process:
--Shipment Tracking
+- Shipment Tracking
 Process:
 Centralized backend for managing product information, user data, order records, and inventory.
 Exposes APIs for dynamic data communication with the frontend.
